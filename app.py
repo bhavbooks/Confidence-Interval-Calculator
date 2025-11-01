@@ -93,3 +93,12 @@ with col_dist:
 
 
 
+# Footer for personal Showcase 🙂
+st.markdown("""
+    <div class="footer">
+    Built by <b>Bhavesh</b> | 
+    <a href="https://linkedin.com/in/bhavv77" target="_blank">LinkedIn</a> | 
+    Data Science & Statistics
+    </div>
+""", unsafe_allow_html=True)
+

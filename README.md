@@ -41,7 +41,7 @@ This tool helps students, analysts, and data-science beginners visualise and und
 ## 📦 Run Locally
 
 ```bash
-git clone <your-repo-url>
+git clone <paste my repo url here>
 cd <your-repo-folder>
 pip install -r requirements.txt
 streamlit run app.py

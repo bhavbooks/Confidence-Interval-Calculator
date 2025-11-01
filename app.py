@@ -26,7 +26,7 @@ with col1:
     st.markdown('*Z-Procedure for Population Mean Estimation*')
 with col2:
     st.markdown("""
-    [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/bhavv77)    '''added my linkedin here'''
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/bhavv77) 
     """)
 
 

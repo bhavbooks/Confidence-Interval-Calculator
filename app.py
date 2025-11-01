@@ -8,7 +8,7 @@ from scipy.stats import norm
 
 ''' app layout '''
 
-st.set_page_config(page_title='Confidence Interval Calculator - for Z approach', layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title='Confidence Interval Calculator', layout='wide', initial_sidebar_state='expanded')
 
 # Custom styling (used GPT for this)
 st.markdown("""
@@ -33,7 +33,7 @@ with col2:
 ## taking inputss from the user
 with st.sidebar:
     st.header('⚙️ Configuration')
-    confidence_level = st.slider('Confidence Level (%)', 50, 99.9, 95.0, 0.1)
+    confidence_level = st.slider('Confidence Level (%)', 50.0, 99.9, 95.0, 0.1)
     sample_mean = st.number_input('Sample Mean (μ)', value=100.0)
     population_std_dev = st.number_input('Population Std Dev (σ)', value=15.0, min_value=0.1)
     sample_size = st.number_input('Sample Size (n)', value=30, min_value=1, step=1)
@@ -98,7 +98,7 @@ st.markdown("""
     <div class="footer">
     Built by <b>Bhavesh</b> | 
     <a href="https://linkedin.com/in/bhavv77" target="_blank">LinkedIn</a> | 
-    Data Science & Statistics
+    Economics Major, DU
     </div>
 """, unsafe_allow_html=True)
 
